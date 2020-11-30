@@ -24,3 +24,9 @@ std::string Concessionaria::getCnpj() {
 int Concessionaria::getEstoque() {
     return estoque;
 }
+
+
+//Imjplementar essa função com sobracarga talvez seja a solução.
+/* void Concessionaria::entradaVeiculos() {
+
+} */
