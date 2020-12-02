@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 #include "veiculos.h"
 #ifndef motos_H 
@@ -9,5 +10,12 @@ class Motos : public Veiculos {
     public:
         Motos();
 };
+
+Motos::Motos() : Veiculos() {
+
+    std::cout << "Modelo: " << std::endl;
+    std::cin >> this->modelo;
+
+}
 
 #endif

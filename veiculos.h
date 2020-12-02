@@ -12,4 +12,17 @@ class Veiculos {
         Veiculos();
 };
 
+Veiculos::Veiculos() {
+
+    std::cout << "Marca: " << std::endl;
+    std::cin >> this->marca;
+    std::cout << "Chassi: " << std::endl;
+    std::cin >> this->chassi;
+    std::cout << "Data de fabricação: " << std::endl;
+    std::cin >> this->fabricacao;
+    std::cout << "Preço: " << std::endl;
+    std::cin >> this->preco;
+
+}
+
 #endif

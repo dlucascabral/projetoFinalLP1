@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 #include "veiculos.h"
 #ifndef caminhoes_H 
@@ -9,5 +10,12 @@ class Caminhoes : public Veiculos {
     public:
         Caminhoes();
 };
+
+Caminhoes::Caminhoes() : Veiculos() {
+
+    std::cout << "Tipo de carga: " << std::endl;
+    std::cin >> this->carga;
+
+}
 
 #endif

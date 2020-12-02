@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include "concessionaria.h"
+#include "veiculos.h"
+#include "automoveis.h"
 
 Concessionaria::Concessionaria() {
 
@@ -24,9 +26,3 @@ std::string Concessionaria::getCnpj() {
 int Concessionaria::getEstoque() {
     return estoque;
 }
-
-
-//Imjplementar essa função com sobracarga talvez seja a solução.
-/* void Concessionaria::entradaVeiculos() {
-
-} */
