@@ -1,4 +1,7 @@
 #include <string>
+#include "automoveis.h"
+#include "motos.h"
+#include "caminhoes.h"
 #ifndef veiculos_H 
 #define veiculos_H
 

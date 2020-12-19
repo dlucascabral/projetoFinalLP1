@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
-#include "veiculos.h"
 #ifndef caminhoes_H 
 #define caminhoes_H
+
 
 class Caminhoes : public Veiculos {
     protected:
@@ -11,7 +11,7 @@ class Caminhoes : public Veiculos {
         Caminhoes();
 };
 
-Caminhoes::Caminhoes() : Veiculos() {
+Caminhoes::Caminhoes() : Veiculos(){
 
     std::cout << "Tipo de carga: " << std::endl;
     std::cin >> this->carga;

@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include "veiculos.h"
 #ifndef motos_H 
 #define motos_H
 

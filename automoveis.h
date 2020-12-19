@@ -1,6 +1,6 @@
 #include <string>
 #include <iostream>
-#include "veiculos.h"
+//#include "veiculos.h"
 #ifndef automoveis_H 
 #define automoveis_H
 
@@ -11,7 +11,7 @@ class Automoveis : public Veiculos {
         Automoveis();
 };
 
-Automoveis::Automoveis() : Veiculos() {
+Automoveis() : Veiculos() {
 
     std::cout << "Tipo de motor: " << std::endl;
     std::cin >> this->tipoMotor;
